@@ -1,6 +1,6 @@
 s=input()
 b='a','e','i','o','u'
-if s==b:
+if s in b:
   print("Vowel")
 if s!==b:
   print("Consonant")
