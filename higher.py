@@ -1,9 +1,9 @@
-l=int(input())
+j=int(input())
 k=int(input())
-o=int(input())
-if l>=k and l>=o:
-  print(l)
-elif k>o and k>l:
+p=int(input())
+if j>=k and j>=p:
+  print(j)
+elif k>j and k>p:
   print(k)
 elif:
-  print(o)
+  print(p)
