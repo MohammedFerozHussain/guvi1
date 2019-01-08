@@ -1,9 +1,6 @@
 s=input()
-b='a','e','i','o','u'
-if s in b:
+if s == 'a' or s=='e' or s=='i' or s=='o' or s=='u':
   print("Vowel")
-if s!==b:
-  print("Consonant")
 else:
-  print("invalid")
+  print("Consonant")
   
