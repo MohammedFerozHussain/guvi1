@@ -1,9 +1,9 @@
 l=int(input())
-m=int(input())
+k=int(input())
 o=int(input())
-if l>m and l>o:
+if l>k and l>o:
   print(l)
-elif m>o and m>l:
-  print(m)
+elif k>o and k>l:
+  print(k)
 else:
   print(o)
