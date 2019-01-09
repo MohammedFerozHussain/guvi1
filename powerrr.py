@@ -1,2 +1,2 @@
 f,k=map(int,input().split())
-print(n**k)
+print(f**k)
