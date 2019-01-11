@@ -5,7 +5,8 @@ if m>1:
       print("no")
       break
     else:
-      print("yes")  
+      print("yes") 
+      break
 else:
   print("no")      
   
