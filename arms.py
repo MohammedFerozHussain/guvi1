@@ -1,4 +1,4 @@
-x = int(input("Enter a number: "))  
+x = int(input())  
 s = 0  
 t = x  
   
