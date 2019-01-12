@@ -1,2 +1,2 @@
-s=input()
-print(s)
+str6=input()
+print(str6)
