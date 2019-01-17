@@ -1,5 +1,5 @@
-st2=input()
-if st2.isnumeric():
+st5=input()
+if st5.isnumeric():
   print("yes")
 else:
   print("no")
