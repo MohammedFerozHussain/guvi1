@@ -1,3 +1,3 @@
-t,y=input().split()
+t1,y=input().split()
 for i in range(0,int(y)):
-  print(t)
+  print(t1)
