@@ -1,5 +1,6 @@
 import statistics
-a = [int(x) for x in input().split()]
+n=int(input())
+a = list(map(int,input().split()))
 w=a.sort()
 median=statistics.median(a)
 print(median)
