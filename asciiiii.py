@@ -1,3 +1,3 @@
 n=input()
-s=sum(ord(n) for i in range(n))
+s=sum(ord(i) for i in n)
 print(s)
