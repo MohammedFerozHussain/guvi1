@@ -1,6 +1,8 @@
 s=input()
-c=len(s)
-if c%2==0:
-    print("yes")
+c=s.upper()
+for i in s:
+    if s.count(i)>1:
+        print("No")
+        break
 else:
-    print("no")
+    print("Yes")
