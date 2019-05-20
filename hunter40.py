@@ -7,6 +7,6 @@ for i in range(0,n):
 s1=str(s)
 c=s1[::-1]
 if c==s1:
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
