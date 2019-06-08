@@ -1,3 +1,3 @@
-a,b=map(int,input().split())
-c=a**b
-print(c)
+n,m=map(int,input().split())
+d=n**m
+print(d)
