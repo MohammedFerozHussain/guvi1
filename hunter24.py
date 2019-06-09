@@ -3,7 +3,7 @@ l=list(map(int,input().split()))
 c=[]
 for i in range(0,n-1):
     for j in range(i+1,m):
-        if l[i]+l[j]==l:
+        if l[i]+l[j]==m:
             c=1
             break
 if c==1:
