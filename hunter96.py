@@ -12,7 +12,7 @@ for i in range(2,x+1):
                break
         else:
             lis.append(i)
-print(*lis)
+print(*lis,end="")
             
 
           
