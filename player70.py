@@ -1,2 +1,2 @@
-s=input()
-print(s,"Answer")
+p=input()
+print(p,"Answer")
