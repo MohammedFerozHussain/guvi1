@@ -1,15 +1,15 @@
-def a(l, n): 
+def a(l, n1): 
     l.sort()  
     i = 0
-    j = n-1
+    j = n1-1
       
     while (i < j):
-        print(l[i], end =" ") 
-        i+= 1
         print(l[j], end =" ") 
         j-= 1
-    if (n % 2 != 0): 
-        print(l[i])  
-l=list(map(int,input().split()))  
-n=len(l) 
-a(l, n)      
+        print(l[i], end =" ") 
+        i+= 1
+    if (n1 % 2 != 0): 
+        print(l[i]) 
+n1=int(input())        
+l=list(map(int,input().split())) 
+a(l, n1)      
